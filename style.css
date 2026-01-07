@@ -1,0 +1,136 @@
+body {
+  font-family: "Segoe UI", sans-serif;
+}
+
+/* Top bar */
+.top-bar {
+  background: #1f7f3a;
+  color: #fff;
+  font-size: 14px;
+  padding: 5px 0;
+}
+/* Page header */
+.page-header {
+  background: linear-gradient(rgba(0,0,0,.6), rgba(0,0,0,.6)),
+              url("./job.avif") center/cover no-repeat;
+  padding: 80px 0;
+}
+
+/* Job Card */
+.job-card {
+  background: #fff;
+  padding: 20px;
+  border-radius: 6px;
+  box-shadow: 0 0 12px rgba(0,0,0,.1);
+  height: 100%;
+}
+.job-card h5 {
+  color: #0f5132;
+}
+
+/* Hero */
+.hero {
+  background: url("./cover.jpg") center/cover no-repeat;
+  height: 75vh;
+  position: relative;
+}
+
+.hero-overlay {
+  background: rgba(0,0,0,0.55);
+  height: 100%;
+  display: flex;
+  align-items: center;
+}
+
+/* Services */
+.service-card {
+  background: #fff;
+  padding: 15px;
+  border-radius: 6px;
+  box-shadow: 0 0 10px rgba(0,0,0,0.1);
+}
+
+.service-card h6 {
+  margin: 10px 0;
+}
+/* Gallery */
+.gallery img {
+  transition: 0.3s;
+}
+.gallery img:hover {
+  transform: scale(1.05);
+}
+
+/* Why Us */
+.why-us {
+  background: #fff;
+}
+
+/* Director */
+.director img {
+  max-width: 220px;
+}
+
+/* Footer */
+.footer {
+  background: #0f5132;
+  color: #fff;
+}
+.footer h5 {
+  color: #a8ffcf;
+}
+.footer ul li {
+  margin-bottom: 6px;
+  cursor: pointer;
+}
+.footer ul li:hover {
+  text-decoration: underline;
+}
+/* Visa Steps */
+.step-card {
+  background: #fff;
+  padding: 25px;
+  border-radius: 8px;
+  box-shadow: 0 0 12px rgba(0,0,0,0.08);
+  position: relative;
+  height: 100%;
+}
+
+.step-number {
+  position: absolute;
+  top: -15px;
+  right: 15px;
+  background: #0f5132;
+  color: #fff;
+  padding: 8px 12px;
+  border-radius: 50%;
+  font-weight: bold;
+}
+/* Contact */
+.contact-box {
+  background: #fff;
+  padding: 20px;
+  border-radius: 6px;
+  box-shadow: 0 0 10px rgba(0,0,0,0.08);
+}
+/* Gallery */
+.gallery-img {
+  cursor: pointer;
+  border-radius: 6px;
+  transition: 0.3s;
+}
+.gallery-img:hover {
+  transform: scale(1.05);
+}
+.process p {
+  font-size: 14px;
+  line-height: 1.6;
+}
+.service-card p {
+  font-size: 14px;
+  line-height: 1.6;
+}
+.getin{
+  width: 50%;
+  height: 50%;
+}
